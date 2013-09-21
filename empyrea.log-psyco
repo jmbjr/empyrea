@@ -1,0 +1,135 @@
+15:49:53.57  Logging started, 09/06/13                  %%%%%%%%%%%%%%%%%%%%
+15:49:53.57  unsupported opcode 101 at PathMarker:0 (C:\Empyrea\empyrea.py:546)% %
+15:49:53.57  unsupported opcode 101 at IntroGraphics:0 (C:\Empyrea\empyrea.py:609)% %
+15:49:53.57  unsupported opcode 101 at CloudNoise:0 (C:\Empyrea\empyrea.py:705)% %
+15:49:53.57  unsupported opcode 101 at WCloudNoise:0 (C:\Empyrea\empyrea.py:862)% %
+15:49:53.57  unsupported opcode 101 at FadeText:0 (C:\Empyrea\empyrea.py:956)% %
+15:49:53.57  unsupported opcode 101 at ButtonBox:0 (C:\Empyrea\empyrea.py:1058)% %
+15:49:53.57  unsupported opcode 101 at Menu:0 (C:\Empyrea\empyrea.py:1239)% %
+15:49:53.57  unsupported opcode 101 at RelMap:0 (C:\Empyrea\empyrea.py:1531)% %
+15:49:53.57  unsupported opcode 101 at InvWindow:0 (C:\Empyrea\empyrea.py:1579)% %
+15:49:53.57  unsupported opcode 101 at Dialogue:0 (C:\Empyrea\empyrea.py:1875)% %
+15:49:53.57  unsupported opcode 101 at NDialogue:0 (C:\Empyrea\empyrea.py:1967)% %
+15:49:53.57  unsupported opcode 101 at OptWindow:0 (C:\Empyrea\empyrea.py:2083)% %
+15:49:53.57  unsupported opcode 101 at CWindow:0 (C:\Empyrea\empyrea.py:2763)% %
+15:49:53.57  unsupported opcode 101 at ProgressBar:0 (C:\Empyrea\empyrea.py:4705)% %
+15:49:53.57  unsupported opcode 101 at ScrollBar:0 (C:\Empyrea\empyrea.py:4743)% %
+15:49:53.57  unsupported opcode 101 at WScrollBar:0 (C:\Empyrea\empyrea.py:4925)% %
+15:49:53.57  unsupported opcode 101 at World:0 (C:\Empyrea\empyrea.py:6964)% %
+15:49:53.57  unsupported opcode 101 at WorldNaming:0 (C:\Empyrea\empyrea.py:8103)% %
+15:49:53.57  unsupported opcode 101 at WorldCreatures:0 (C:\Empyrea\empyrea.py:8989)% %
+15:49:53.57  unsupported opcode 101 at WorldHistory:0 (C:\Empyrea\empyrea.py:11569)% %
+15:49:53.57  unsupported opcode 101 at WorldAtlas:0 (C:\Empyrea\empyrea.py:11868)% %
+15:49:53.57  unsupported opcode 101 at PlayWorld:0 (C:\Empyrea\empyrea.py:12274)% %
+15:49:53.57  unsupported opcode 101 at Pathfinder:0 (C:\Empyrea\empyrea.py:18419)% %
+15:50:04.29  unsupported opcode 81 at start:170 (C:\Python26\lib\threading.py:465)% %
+15:50:04.29  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:50:04.29  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.29  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.29  unsupported ** argument in call to RLock (C:\Python26\lib\threading.py:96)% %
+15:50:04.30  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:50:04.30  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.30  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.30  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.30  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:04.42  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.42  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.42  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.42  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.43  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.43  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.43  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.43  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:04.43  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:07.23  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:11.99  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:50:11.99  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:12.17  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:12.26  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:12.34  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:12.34  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:12.41  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:12.44  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:15.02  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:15.11  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:15.11  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:15.18  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:15.19  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:16.85  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:50:16.85  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:16.85  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:50:16.85  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:17.05  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:50:17.05  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:50:17.74  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:17.80  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:17.84  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:50:43.22  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:50:43.22  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:50:50.45  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:50:50.45  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:51:22.00  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:51:22.00  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:51:46.75  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:51:46.75  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:51:48.93  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:51:48.93  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:48.93  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:48.93  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:51.51  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:51.53  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:51.59  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:52.23  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:52.23  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:52.23  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:52.23  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:52.37  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:52.37  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:52.41  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:52.41  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:52.41  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:52.44  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.44  unsupported ** argument in call to Event (C:\Python26\lib\threading.py:361)% %
+15:51:57.44  unsupported ** argument in call to Condition (C:\Python26\lib\threading.py:176)% %
+15:51:57.45  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.45  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.45  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:51:57.46  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:51:57.46  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:52:01.48  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:52:01.48  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %
+15:52:01.48  unsupported ** argument in call to min (C:\Python26\lib\site-packages\psyco\builtin.py:69)% %
+15:52:01.48  unsupported ** argument in call to max (C:\Python26\lib\site-packages\psyco\builtin.py:121)% %

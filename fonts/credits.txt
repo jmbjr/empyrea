@@ -1,0 +1,23 @@
+A number of tiles have been taken and/or modified from Jerom's 32x32 tileset (http://opengameart.org/content/32x32-fantasy-tileset).
+Small scroll by 'ba1969' (http://www.sxc.hu/photo/1328513).
+
+The following artists' work was used for various graphics: andreyutzu (http://www.sxc.hu/photo/1150764), brokenarts (http://www.sxc.hu/photo/432896), gilderm (http://www.sxc.hu/photo/1389219)
+
+A HUGE thanks goes to RPGMapShare.com, and to Steel Rat, who created many of the flora graphics in the game.
+
+A number of miscellaneous images were taken from stock.xchng, which is a great resource for stock photos. Please visit and endorse it!
+
+An image from fantasymapmaker.com was used for the loading screens.
+
+Part of (or All) the graphic tiles used in this program is the public 
+domain roguelike tileset "RLTiles".
+Some of the tiles have been modified.
+
+You can find the original tileset at:
+http://rltiles.sf.net
+
+Some characters were used from the DF tileset repository (http://dwarffortresswiki.org/index.php/Tileset_repository). Dwarf Fortress is an awesome game.
+
+Some tiles (notably castle walls) are by 'The Sim' at dundjinni.com, which is a great resource for anybody looking for graphical tiles for map-making or games.
+
+GUI icons are from game-icons.net. Go look; it is awesome.

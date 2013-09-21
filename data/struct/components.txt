@@ -1,0 +1,20 @@
+>> log
+TYPE: component
+MATERIALS: wood
+CHAR: 7 | 7
+BLURB: This is a section of tree-trunk that has been cut down to a manageable size and cleared of branches.
+<<
+
+>> stone
+TYPE: component
+MATERIALS: stone
+CHAR: 4 | 7
+BLURB: This heap of stone can be used for a variety of purposes, but is mostly useful for building.
+<<
+
+>> glass
+TYPE: component
+MATERIALS: glass
+CHAR: 6 | 7
+BLURB: This is raw glass, used in a wide variety of crafts and goods. It is smooth and transparent.
+<<

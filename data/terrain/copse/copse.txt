@@ -1,0 +1,15 @@
+>> tropicalcopse1
+WIDTH: 32
+HEIGHT: 30
+XLOC: 0
+YLOC: 1068
+TYPE: TROPICAL
+<<
+
+>> tropicalcopse2
+WIDTH: 32
+HEIGHT: 30
+XLOC: 0
+YLOC: 1098
+TYPE: TROPICAL
+<<

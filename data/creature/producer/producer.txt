@@ -1,0 +1,7 @@
+{PRODUCER}
+
+>> Energy Source
+C1: Photosynthesis
+C2: Crystal Energy Extraction
+C3: Magic Siphoning
+<<

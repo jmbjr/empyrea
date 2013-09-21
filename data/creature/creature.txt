@@ -1,0 +1,85 @@
+Choicelists are opened with '>>' and closed with '<<'. Each choicelist should contain at minimum a set of choices (designated Cn, where n is the number of the choice). The game will successively examine each choicelist in order, opening the choicelists in corresponding folders according to which selections are made. It is, therefore, important to order choicelists in a way that respects a deterministic approach to creature construction. As an example, in this file the Locomotion choicelist precedes the Body Type choicelist because the prior affects the behavior of branched choicelists within the latter.
+
+Traits added by the current selection (i.e., text file) should be enclosed individually at the beginning of the file within braces. Ex:
+
+{TRAIT 1}
+{TRAIT 2}
+
+The game engine will ignore anything that is neither a choicelist nor within a set of braces.
+
+When a choice is selected, the game engine will look in the corresponding folder and text file (i.e., for every folder there should be an identically named file), first adding any traits conferred by the selection to the creature's overall list of traits, and then repeating the process for any choicelists nested within the current selection.
+
+=-=-=-=-=
+
+General Tags <Format>:
+
+WEIGHT <WEIGHT: n1 | n2 [| n3 [| n4...]]>
+The WEIGHT tag must contain a set of ordered numerical elements representing the respective odds of selecting each choice in the entry, separated by the delimiter |. When there is no WEIGHT tag, the odds of selecting any given choice are equal.
+
+MULTI <MULTI: n>
+The MULTI tag tells the game engine that the choice may be repeated up to n times. The odds of repeating a choice selection grow exponentially smaller with each repetition. (Example: MULTI: 4 would tell the game to return up to 4 choices, but no more). The same choice will never be returned more than once.
+
+DIRECTSET <DIRECTSET: [$] [format string] [$]>:
+The DIRECTSET tag tells the engine not to search the current directory for subdirectories based on this choicelist, and instead add a trait to the creature based on the name of the selected choice plus a format string. The $ character designates where the selected choice should be inserted and must always be present. Examples:
+DIRECTSET: $ Skin (if the selected choice is 'Brown', adds a trait to the character named 'Brown Skin')
+DIRECTSET: $ (if the selected choice is 'Brown Skin', adds a trait to the character named 'Brown Skin')
+DIRECTSET: $-Headed (if the selected choice is 'Three', adds a trait to the character named 'Three-Headed')
+
+SETVALUE:
+The SETVALUE tag causes the engine to set a hardcoded value
+
+=-=-=-=-=
+
+Deterministic tags <Format>:
+
+ALLOW <ALLOW: TRAIT - CHOICE [| CHOICE2 [| CHOICE3...]]>:
+Limits the choices available for selection within the current choicelist if a previous trait has been added to the creature's overall trait list.
+
+FORCE <FORCE: CHOICE - TRAIT [| TRAIT2 [| TRAIT3...]]>:
+Forces the game to select CHOICE if TRAIT(s) are present. If MULTI is present, it will count towards the total.
+
+RESTRICT <RESTRICT: CHOICE - TRAIT [| TRAIT2 [| TRAIT3...]]>:
+Prevents the selection of a choice if one or more traits are present in the creature.
+
+SKIP <SKIP: TRAIT>:
+Skips the current choicelist entirely if TRAIT is present.
+
+=-=-=-=-=
+
+>> Consumption
+C1: Producer
+C2: Herbivore
+C3: Carnivore
+C4: Omnivore
+WEIGHT: 2 | 40 | 40 | 18
+<<
+
+>> Classification
+C1: Mammal
+C2: Amphibian
+C3: Reptile
+C4: Fish
+C5: Bird
+C6: Invertebrate
+WEIGHT: 25 | 20 | 25 | 10 | 10 | 10
+<<
+
+A note on locomotion: the chosen type of locomotion will not restrict a creature from possessing alternate means of locomotion; it will simply force the creature's morphology to conform to supporting at least the chosen type of motility. A creature that gains claws which allow digging by chance will end up being able to dig and take flight if flight is chosen as one of its means of locomotion.
+
+>> Locomotion
+C1: Flying
+C2: Jumping
+C3: Running
+C4: Swimming
+C5: Digging
+WEIGHT: 10 | 10 | 40 | 35 | 5
+MULTI: 3
+<<
+
+>> Body Type
+C1: Vertebrate
+C2: Bilateral Invertebrate
+C3: Radial Invertebrate
+WEIGHT: 40 | 30 | 30
+ALLOW: Invertebrate - Bilateral Invertebrate | Radial Invertebrate
+<<

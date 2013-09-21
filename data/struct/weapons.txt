@@ -1,0 +1,15 @@
+>> hatchet
+TYPE: weapon
+TAGS: CHOP_TREES | CAN_WIELD | ONE_HANDED
+MATERIALS: METAL | STONE
+CHAR: 12 | 12
+BLURB: A small single-handed striking tool primarily used to cut and split wood. This one is made from %s.
+<<
+
+>> pick
+TYPE: weapon
+TAGS: MINE_ROCK | CAN_WIELD | TWO_HANDED
+MATERIALS: METAL | STONE
+CHAR: 20 | 10
+BLURB: This is a tool used for breaking up rocky surfaces. It has a long wooden handle and a curving %s head that ends in two sharp points.
+<<

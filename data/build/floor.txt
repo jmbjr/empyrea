@@ -1,0 +1,13 @@
+>> Wood Floor
+TYPE: floor
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 0,1957 | 1,1957 | 2,1957 | 3,1957
+<<
+
+>> Stone Floor
+TYPE: floor
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 4,1957 | 5,1957 | 6,1957 | 7,1957
+<<

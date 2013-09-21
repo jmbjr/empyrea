@@ -1,0 +1,18 @@
+>> iron
+TYPE: material
+COLOR: 127 | 127 | 127
+<<
+
+>> wood
+TYPE: material
+COLOR: 100 | 86 | 61
+
+>> stone
+TYPE: material
+COLOR: 163 | 164 | 146
+<<
+
+>> glass
+TYPE: material
+COLOR: 127 | 184 | 213
+<<

@@ -1,0 +1,15 @@
+>> Wood Fence
+TYPE: fence
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 0,1961 | 1,1961 | 2,1961 | 3,1961 | 4,1961 | 5,1961 | 6,1961 | 7,1961 | 8,1961 | 9,1961 | 10,1961
+NOBG: True
+<<
+
+>> Stone Fence
+TYPE: fence
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 11,1961 | 12,1961 | 13,1961 | 14,1961 | 15,1961 | 16,1961 | 17,1961 | 18,1961 | 19,1961 | 20,1961 | 21,1961
+NOBG: True
+<<

@@ -1,0 +1,31 @@
+>> Window (Down)
+TYPE: window
+MATERIALS: glass
+REQMATS: glass:1
+CHARS: 0,1959
+NOBG: True
+<<
+
+>> Window (Up)
+TYPE: window
+MATERIALS: glass
+REQMATS: glass:1
+CHARS: 1,1959
+NOBG: True
+<<
+
+>> Window (Left)
+TYPE: window
+MATERIALS: glass
+REQMATS: glass:1
+CHARS: 2,1959
+NOBG: True
+<<
+
+>> Window (Right)
+TYPE: window
+MATERIALS: glass
+REQMATS: glass:1
+CHARS: 3,1959
+NOBG: True
+<<

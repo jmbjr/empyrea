@@ -1,0 +1,47 @@
+>> Wood Roof (Quad)
+TYPE: roof
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 1,1964
+SHADOW: quad
+<<
+
+>> Wood Roof (Vert)
+TYPE: roof
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 1,1964
+SHADOW: vertical
+<<
+
+>> Wood Roof (Hrzl)
+TYPE: roof
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 1,1964
+SHADOW: horizontal
+<<
+
+>> Stone Roof (Quad)
+TYPE: roof
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 0,1964
+SHADOW: quad
+<<
+
+>> Stone Roof (Vert)
+TYPE: roof
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 0,1964
+SHADOW: vertical
+<<
+
+>> Stone Roof (Hrzl)
+TYPE: roof
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 0,1964
+SHADOW: horizontal
+<<

@@ -1,0 +1,31 @@
+=== VIDEO ===
+SCREEN WIDTH: 80
+SCREEN HEIGHT: 60
+* Recommended: 100 x 70.
+* Width/height by characters. With a 14x14 font (default), 100 character width = 1400 pixel width.
+* Small dimensions are likely to break GUI elements.
+
+FONT: dullard14x14.png
+FONT TYPE: STANDARD
+* Use STANDARD for 32-bit PNG with alpha transparency, GREYSCALE for greyscale bitmaps.
+* For users with small screens, switching to the 10x10 (dullard_10x10.bmp) character set with GREYSCALE would be a good idea.
+
+FULLSCREEN: no
+* Change to 'yes' for fullscreen graphics.
+
+=== AUDIO ===
+MUSIC VOLUME: 0
+SFX VOLUME: 50
+* These are percentage-based values and will always load as defaults on game startup.
+
+=== GAME SETTINGS ===
+WORLD MAP WIDTH: 100
+WORLD MAP HEIGHT: 100
+REGION MAP WIDTH: 300
+REGION MAP HEIGHT: 200
+* You can set these to anything, but be aware that very small sizes may cause generation errors and very large sizes will probably cause lag.
+* All settings should be multiples of 10 or errors could occur.
+WORLDGEN PICS: YES
+* If set to 'YES', generates worldgen images. These will be very large and may freeze the game while saving if the user persists in moving the map around during image generation.
+COLOR SCHEME: GREEN
+* This will change the game's color scheme. Available options: GREEN,

@@ -1,0 +1,15 @@
+>> Wood Door
+TYPE: door
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 8,1958 | 9,1958
+NOBG: True
+<<
+
+>> Stone Door
+TYPE: door
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 10,1958 | 11,1958
+NOBG: True
+<<

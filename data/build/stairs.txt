@@ -1,0 +1,15 @@
+>> Wood Stairs
+TYPE: up-stairs
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 2,1962 | 3,1962
+NOBG: True
+<<
+
+>> Stone Stairs
+TYPE: up-stairs
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 0,1962 | 1,1962
+NOBG: True
+<<

@@ -1,0 +1,15 @@
+>> Wood Pillar
+TYPE: pillar
+MATERIALS: wood
+REQMATS: log:1
+CHARS: 0,1960
+NOBG: True
+<<
+
+>> Stone Pillar
+TYPE: pillar
+MATERIALS: stone
+REQMATS: stone:1
+CHARS: 1,1960
+NOBG: True
+<<
