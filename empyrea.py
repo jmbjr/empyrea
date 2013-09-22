@@ -15,7 +15,7 @@ import multiprocessing
 import cPickle
 import fnmatch
 import inflect
-import psyco
+#import psyco
 import copy
 import sqlite3
 import gc
@@ -44,8 +44,8 @@ def LoadInit():
 
 init = LoadInit()
 
-psyco.log()
-psyco.full()
+#psyco.log()
+#psyco.full()
 
 p = inflect.engine()
 __author__ = 'D.M. Hagar'

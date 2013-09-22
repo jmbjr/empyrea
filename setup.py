@@ -4,7 +4,6 @@ import py2exe
 import sys
 import os
 import glob, shutil
-import psyco
 import libtcodpy
 
 REMOVE_BUILD_ON_EXIT = True
@@ -15,7 +14,7 @@ AUTHOR_NAME = 'David Hagar'
 AUTHOR_EMAIL = 'dm.hagar@gmail.com'
 AUTHOR_URL = "http://cultrl.wordpress.com"
 PRODUCT_NAME = "Cult"
-SCRIPT_MAIN = 'C:\\Cult\\cult.py'
+SCRIPT_MAIN = 'C:\\Cult\\cult.py' 
 VERSIONSTRING = PRODUCT_NAME + " ALPHA " + VERSION + ' by D.M. Hagar'
 ICONFILE = 'C:\\Cult\\image\\ico\\cult.ico'
 
@@ -54,14 +53,13 @@ MODULE_EXCLUDES =[
 'compiler',
 'pydoc']
 
-INCLUDE_STUFF = ['numpy','psyco']
+INCLUDE_STUFF = ['numpy']
 
 setup(windows=[
              {'script': SCRIPT_MAIN,
                'other_resources': [(u"VERSIONTAG",1,VERSIONSTRING)],
                'icon_resources': [(1,ICONFILE)]}],
          options = {"py2exe": {
-                             "packages": ['psyco'],
                              "includes": INCLUDE_STUFF,
                              "optimize": 0,
                              "compressed": 1,
